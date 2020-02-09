@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: Ebrima, Arial, sans-serif;
+}
+
+aside {
+  width: 30%;
+  padding-left: 130px;
+  padding-top: 45px;
+  background-color: #FF9800;
+}
+
+aside img {
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.sidepart__heading {
+  margin-left: -130px;
+  padding-left: 170px;
+  color: #FF9800;
+  background: #000000;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+aside section {
+  margin-bottom: 20px;
+}
