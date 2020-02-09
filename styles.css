@@ -14,7 +14,7 @@ aside {
   width: 30%;
   padding-left: 130px;
   padding-top: 45px;
-  background-color: #FF9800;
+  background-color: #FFA000;
 }
 
 aside img {
@@ -24,8 +24,8 @@ aside img {
 
 .sidepart__heading {
   margin-left: -130px;
-  padding-left: 170px;
-  color: #FF9800;
+  text-align: center;
+  color: #FFA000;
   background: #000000;
   font-weight: 500;
   margin-bottom: 20px;
@@ -33,4 +33,31 @@ aside img {
 
 aside section {
   margin-bottom: 20px;
+  width: 65%;
+  text-align: justify;
+}
+
+.contact-section__details {
+  margin-bottom: 15px;
+}
+
+.contact-section__details a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFA000;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+a:active{
+  text-decoration: overline;
+  text-shadow: 3px 3px 8px #000000;
+}
+
+section span {
+  margin-right: 22px;
 }
