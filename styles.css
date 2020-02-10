@@ -12,30 +12,34 @@ body {
 }
 
 aside {
-  width: 40%;
-  padding-left: 130px;
+  width: 35%;
   padding-top: 45px;
   background-color: #FFB300;
 }
 
 aside img {
-  border-radius: 100px;
-  margin-bottom: 20px;
-  margin-left: 25px;
+  display: block;
+  border-radius: 120px;
+  margin: auto;
+  width: 40%;
+
 }
 
 aside h2 {
-  margin-left: -130px;
   text-align: center;
   color: #FFB300;
   background: #2D2D2D;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 aside section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 20px;
-  width: 65%;
   text-align: justify;
 }
 
@@ -59,8 +63,10 @@ a:active{
   text-shadow: 3px 3px 8px #2D2D2D;
 }
 
-aside section:nth-last-of-type(1) span {
-  margin-left: 20px;
+aside section:nth-last-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 main {
@@ -83,11 +89,27 @@ main strong {
 
 main h2 {
   font-weight: normal;
-  font-size: 1.2em;
-  margin-bottom: 20px;
+  font-size: 1.3em;
+  border-bottom: solid 2px #FFB300;
+  padding-bottom: 15px;
+  width: 25%;
+  margin-bottom: 100px;
 }
 
-main div {
-  border-bottom: solid 2px #FFB300;
-  width: 80%;
+main h3 {
+  font-weight: normal;
+}
+
+
+@media screen and (max-width: 720px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
 }
