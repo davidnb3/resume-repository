@@ -73,9 +73,21 @@ main h1 {
   font-size: 3em;
   font-weight: lighter;
   font-family: "Courier New", Courier, monospace;
+  margin-bottom: 15px;
 }
 
 main strong {
   color: #FFB300;
   font-weight: bold;
+}
+
+main h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+main div {
+  border-bottom: solid 2px #FFB300;
+  width: 80%;
 }
