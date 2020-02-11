@@ -96,7 +96,7 @@ main h2 {
   margin-bottom: 15%;
 }
 
-main h3 {
+.main-header {
   font-weight: normal;
   border-bottom: 2px solid #FFB300;
   padding-bottom: 5px;
@@ -106,6 +106,27 @@ main h3 {
 h3 span {
   margin-right: 20px;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container__years {
+  flex-grow: 2;
+}
+
+.main-container__details {
+  flex-grow: 1;
+}
+
+
+
 @media screen and (max-width: 720px) {
   body {
     display: flex;
