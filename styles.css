@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -9,6 +8,7 @@ body {
   flex-direction: row;
   font-family: Ebrima, Arial, sans-serif;
   color: #2D2D2D;
+  text-align: justify;
 }
 
 aside {
@@ -40,7 +40,6 @@ aside section {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 20px;
-  text-align: justify;
 }
 
 .contact-details {
@@ -93,7 +92,7 @@ main h2 {
   border-top: 2px solid #FFB300;
   padding-top: 5px;
   display: inline-block;
-  margin-bottom: 15%;
+  margin-bottom: 12%;
 }
 
 .main-header {
@@ -110,21 +109,30 @@ h3 span {
 .main-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-main section {
-  display: flex;
-  flex-direction: column;
-}
 
 .main-container__years {
-  flex-grow: 2;
+  flex: 1;
 }
 
 .main-container__details {
-  flex-grow: 1;
+  flex: 2;
 }
 
+section article {
+  margin: 25px 0px 25px 0px;
+}
+
+article * {
+  margin-bottom: 5px;
+}
+
+li {
+  margin: 25px 0px 125px 0px;
+}
 
 
 @media screen and (max-width: 720px) {
