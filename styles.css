@@ -130,10 +130,16 @@ article * {
   margin-bottom: 5px;
 }
 
-li {
-  margin: 25px 0px 125px 0px;
+ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 25px;
 }
 
+li {
+  flex: 1;
+}
 
 @media screen and (max-width: 720px) {
   body {
