@@ -1,2 +1,2 @@
 # resume-repository
-My online resume for an Openclassrooms project.
+My online resume to showcase my past experiences and future goals.
