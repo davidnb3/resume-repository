@@ -86,12 +86,12 @@ main h1 {
   margin-bottom: 15px;
 }
 
-main strong {
+h1 strong {
   color: #FFB300;
   font-weight: bold;
 }
 
-main h2 {
+span h2 {
   font-weight: normal;
   font-size: 1.3em;
   border-top: 2px solid #FFB300;
@@ -160,7 +160,7 @@ li {
 @media screen and (max-width: 420px) {
   body {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   aside {
     width: 100%;
