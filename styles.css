@@ -32,7 +32,7 @@ aside h2 {
   background: #2D2D2D;
   font-weight: 500;
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 aside section {
@@ -67,11 +67,10 @@ aside section:nth-last-of-type(1) {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 40px;
 }
 
 aside section:nth-of-type(2) {
-  margin-bottom: 100%;
+  margin-bottom: 130%;
 }
 
 main {
@@ -160,18 +159,22 @@ li {
   }
   aside {
     width: 100%;
-    margin: 160px 10px -100px 0px;
+    margin: 160px 0px 10px 0px;
   }
   aside section:nth-of-type(2) {
     margin-bottom: 10px;
   }
   main {
-    width: 95%;
+    width: 90%;
     margin: 10px;
   }
-  main > h1, main > span {
-    position: relative;
-    top: -1200px;
+  main > h1 {
+    position: absolute;
+    top: 10px;
+  }
+  main > span {
+    position: absolute;
+    top: 80px;
   }
 }
 
@@ -182,20 +185,50 @@ li {
   }
   aside {
     width: 100%;
-    margin: 160px 10px -100px 0px;
+    margin: 160px 0px 10px 0px;
   }
   aside section:nth-of-type(2) {
     margin-bottom: 10px;
   }
   main {
-    width: 95%;
+    width: 90%;
     margin: 10px;
   }
-  main > h1, main > span {
-    position: relative;
-    top: -1100px;
+  main > h1 {
+    position: absolute;
+    top: 10px;
+  }
+  main > span {
+    position: absolute;
+    top: 80px;
   }
   aside img {
     width: 30%;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+    margin: 160px 0px 10px 0px;
+  }
+  aside section:nth-of-type(2) {
+    margin-bottom: 10px;
+  }
+  main {
+    width: 90%;
+    margin: 10px;
+  }
+  main > h1 {
+    position: absolute;
+    top: 10px;
+  }
+  main > span {
+    position: absolute;
+    top: 120px;
   }
 }
