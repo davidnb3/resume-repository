@@ -3,42 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-
-=======
 .page-container {
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: row;
 }
->>>>>>> 5b7b154cb42b2905257d66fa7fd4c931cf075ec0
 body {
   font-family: Ebrima, Arial, sans-serif;
   color: #2D2D2D;
   text-align: justify;
 }
 
-<<<<<<< HEAD
-.container {
-  display: flex;
-  flex-direction: row;
-  max-width: 1200px;
-  margin: auto;
-}
-=======
 
->>>>>>> 5b7b154cb42b2905257d66fa7fd4c931cf075ec0
 
 aside {
   width: 35%;
   padding-top: 45px;
   background-color: #FFB300;
   position: relative;
-}
-.hobbies {
-  position: absolute;
-  bottom: 0;
 }
 aside img {
   display: block;
@@ -50,7 +33,7 @@ aside section {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  margin-right: 20px;;
+  margin-right: 20px;
 }
 section h2 {
   text-align: center;
@@ -59,21 +42,12 @@ section h2 {
   font-weight: 500;
   margin: 40px -20px 40px -20px;
 }
-<<<<<<< HEAD
-
-aside section {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-=======
-aside section:nth-of-type(2) {
-  margin-bottom: 650px;
+aside section:last-of-type {
+  position: absolute;
+  bottom: 40px;
 }
 aside section ul {
   margin: 0 auto;
->>>>>>> 5b7b154cb42b2905257d66fa7fd4c931cf075ec0
 }
 aside section li {
   margin: 20px 20px 20px 20px;
@@ -139,12 +113,16 @@ h3 span {
 
 .main-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
-.main-container__years {
+.main-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-container__list {
   flex: 1;
 }
 
@@ -155,7 +133,7 @@ h3 span {
 }
 
 section article {
-  margin: 25px 0px 25px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 article * {
