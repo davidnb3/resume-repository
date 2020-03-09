@@ -206,7 +206,7 @@ main section li {
   }
   .main-header {
     position: absolute;
-    top: 10px;
+    top: 20px;
   }
   .main-container .references {
     display: flex;
@@ -216,7 +216,7 @@ main section li {
   }
 }
 
-@media screen and (max-width: 328px) {
+@media screen and (max-width: 326px) {
   .page-container {
     display: flex;
     flex-direction: column;
