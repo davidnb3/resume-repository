@@ -271,27 +271,7 @@ main section li {
   }
 }
 
-@media (max-width: 326px) {
-  .page-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  aside {
-    width: 100%;
-    margin: 200px 0px 10px 0px;
-  }
-
-  main {
-    width: 90%;
-    margin: 10px;
-  }
-
-  .container .references {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+@media (max-width: 331px) {
 
   section.hobbies ul li {
     width: 25px;
